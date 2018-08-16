@@ -10,7 +10,7 @@ do{ ?>
         $cc1   = mysqli_query($link,$sqll);
         $cc2   = mysqli_fetch_assoc($cc1);
     ?>
-        <div class="mw" style="display:none;"><a href='<?=$c2["sup_net"]?>'><?=$cc2["sup_txt"]?></a> </div>
+        <div class="mw" style="display:none;"><a href='<?=$cc2["sup_net"]?>'> <?=$cc2["sup_txt"]?> </a> </div>
     </div>
 
 <?php
